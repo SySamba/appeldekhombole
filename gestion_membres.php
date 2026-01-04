@@ -377,7 +377,7 @@ $stats = $membre_obj->obtenirStatistiques();
                                         </span>
                                     </div>
                                     
-                                    <div class="btn-group w-100" role="group">
+                                    <div class="btn-group w-100 mb-2" role="group">
                                         <a href="generer_carte.php?id=<?php echo $membre['id']; ?>" 
                                            class="btn btn-sm btn-success" title="Voir carte">
                                             <i class="fas fa-id-card"></i>
@@ -393,6 +393,12 @@ $stats = $membre_obj->obtenirStatistiques();
                                             <i class="fas fa-trash"></i>
                                         </button>
                                     </div>
+                                    <a href="envoyer_invitation_whatsapp.php?id=<?php echo $membre['id']; ?>" 
+                                       class="btn btn-sm w-100" 
+                                       style="background: #25d366; color: white;"
+                                       title="Inviter sur WhatsApp">
+                                        <i class="fab fa-whatsapp me-1"></i>Inviter sur WhatsApp
+                                    </a>
                                 </div>
                             </div>
                         <?php endforeach; ?>

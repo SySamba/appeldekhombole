@@ -1,5 +1,6 @@
 <?php
 require_once __DIR__ . '/../config/database.php';
+require_once __DIR__ . '/WhatsAppIntegration.php';
 
 class Membre {
     private $conn;
@@ -34,7 +35,12 @@ class Membre {
         $stmt->bindParam(':qr_code', $qr_code);
         
         if ($stmt->execute()) {
-            return $this->conn->lastInsertId();
+            $memberId = $this->conn->lastInsertId();
+            
+            $whatsapp = new WhatsAppIntegration();
+            $whatsapp->envoyerInvitationGroupe($data['telephone'], $data['nom'], $data['prenom']);
+            
+            return $memberId;
         }
         return false;
     }
