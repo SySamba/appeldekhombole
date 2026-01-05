@@ -830,13 +830,46 @@ $stats = $membre_obj->obtenirStatistiques();
                                 <div class="mb-3">
                                     <label class="form-label">Rôle</label>
                                     <select class="form-select" name="role" id="modifier_role">
-                                        <option value="Membre">Membre</option>
-                                        <option value="Responsable">Responsable</option>
-                                        <option value="Président">Président</option>
-                                        <option value="Vice-Président">Vice-Président</option>
-                                        <option value="Secrétaire">Secrétaire</option>
-                                        <option value="Trésorier">Trésorier</option>
-                                        <option value="Autre">Autre</option>
+                                        <option value="">-- Sélectionner un rôle --</option>
+
+    <option value="Coordonnateur">Coordonnateur</option>
+    <option value="1er Vice-Coordonnateur">1er Vice-Coordonnateur</option>
+    <option value="2e Vice-Coordonnateur">2e Vice-Coordonnateur</option>
+
+    <option value="Secrétaire Général">Secrétaire Général</option>
+    <option value="Secrétaire Général Adjoint">Secrétaire Général Adjoint</option>
+
+    <option value="Trésorier">Trésorier</option>
+    <option value="Trésorier Général Adjoint">Trésorier Général Adjoint</option>
+
+    <option value="Commission Finance">Commission Finance</option>
+    <option value="Commission Technique et de Contrôle">
+        Commission Technique et de Contrôle (Chartes & Règlement intérieur)
+    </option>
+    <option value="Commission Orientation et Stratégie">
+        Commission Orientation, Déploiement Stratégique et Politique
+    </option>
+    <option value="Commission Logistique">
+        Commission Logistique (Mobilisation & Organisation)
+    </option>
+    <option value="Commission Féminine">Commission Féminine</option>
+    <option value="Commission Sportive">Commission Sportive</option>
+    <option value="Commission Culturelle">Commission Culturelle</option>
+    <option value="Commission Entreprenariat">Commission Entreprenariat</option>
+    <option value="Commission Marketing et Communication">
+        Commission Marketing, Communication & Médias Sociaux
+    </option>
+    <option value="Commission Citoyenneté">Commission Citoyenneté</option>
+    <option value="Commission Formation et Insertion">
+        Commission Formation & Insertion Professionnelle
+    </option>
+    <option value="Commission Élèves">Commission des Élèves</option>
+    <option value="Commission Étudiants">Commission des Étudiants</option>
+    <option value="Commission Relations Extérieures">Commission Relations Extérieures</option>
+
+    <option value="Porte-Parole">Porte-Parole</option>
+    <option value="Membre">Membre</option>
+    
                                     </select>
                                 </div>
                             </div>
