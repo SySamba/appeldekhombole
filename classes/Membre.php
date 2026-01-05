@@ -14,7 +14,7 @@ class Membre {
     // Ajouter un membre
     public function ajouter($data) {
         $query = "INSERT INTO " . $this->table . " 
-                  (nom, prenom, date_naissance, telephone, email, adresse, photo, role, statut, date_adhesion, qr_code) 
+                  (nom, prenom, date_naissance, telephone, email, adresse, photo, `role`, statut, date_adhesion, qr_code) 
                   VALUES (:nom, :prenom, :date_naissance, :telephone, :email, :adresse, :photo, :role, :statut, :date_adhesion, :qr_code)";
         
         $stmt = $this->conn->prepare($query);
@@ -22,17 +22,17 @@ class Membre {
         // Génération du QR code unique
         $qr_code = $this->genererQRCode($data['nom'], $data['prenom'], $data['telephone']);
         
-        $stmt->bindParam(':nom', $data['nom']);
-        $stmt->bindParam(':prenom', $data['prenom']);
+        $stmt->bindParam(':nom', $data['nom'], PDO::PARAM_STR);
+        $stmt->bindParam(':prenom', $data['prenom'], PDO::PARAM_STR);
         $stmt->bindParam(':date_naissance', $data['date_naissance']);
-        $stmt->bindParam(':telephone', $data['telephone']);
+        $stmt->bindParam(':telephone', $data['telephone'], PDO::PARAM_STR);
         $stmt->bindParam(':email', $data['email']);
-        $stmt->bindParam(':adresse', $data['adresse']);
+        $stmt->bindParam(':adresse', $data['adresse'], PDO::PARAM_STR);
         $stmt->bindParam(':photo', $data['photo']);
-        $stmt->bindParam(':role', $data['role']);
-        $stmt->bindParam(':statut', $data['statut']);
+        $stmt->bindParam(':role', $data['role'], PDO::PARAM_STR);
+        $stmt->bindParam(':statut', $data['statut'], PDO::PARAM_STR);
         $stmt->bindParam(':date_adhesion', $data['date_adhesion']);
-        $stmt->bindParam(':qr_code', $qr_code);
+        $stmt->bindParam(':qr_code', $qr_code, PDO::PARAM_STR);
         
         if ($stmt->execute()) {
             $memberId = $this->conn->lastInsertId();
@@ -50,21 +50,21 @@ class Membre {
         $query = "UPDATE " . $this->table . " 
                   SET nom = :nom, prenom = :prenom, date_naissance = :date_naissance, 
                       telephone = :telephone, email = :email, adresse = :adresse, 
-                      photo = :photo, role = :role, statut = :statut 
+                      photo = :photo, `role` = :role, statut = :statut 
                   WHERE id = :id";
         
         $stmt = $this->conn->prepare($query);
         
-        $stmt->bindParam(':id', $id);
-        $stmt->bindParam(':nom', $data['nom']);
-        $stmt->bindParam(':prenom', $data['prenom']);
+        $stmt->bindParam(':id', $id, PDO::PARAM_INT);
+        $stmt->bindParam(':nom', $data['nom'], PDO::PARAM_STR);
+        $stmt->bindParam(':prenom', $data['prenom'], PDO::PARAM_STR);
         $stmt->bindParam(':date_naissance', $data['date_naissance']);
-        $stmt->bindParam(':telephone', $data['telephone']);
+        $stmt->bindParam(':telephone', $data['telephone'], PDO::PARAM_STR);
         $stmt->bindParam(':email', $data['email']);
-        $stmt->bindParam(':adresse', $data['adresse']);
+        $stmt->bindParam(':adresse', $data['adresse'], PDO::PARAM_STR);
         $stmt->bindParam(':photo', $data['photo']);
-        $stmt->bindParam(':role', $data['role']);
-        $stmt->bindParam(':statut', $data['statut']);
+        $stmt->bindParam(':role', $data['role'], PDO::PARAM_STR);
+        $stmt->bindParam(':statut', $data['statut'], PDO::PARAM_STR);
         
         return $stmt->execute();
     }
