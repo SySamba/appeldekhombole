@@ -1,9 +1,9 @@
 <?php
 class Database {
     private $host = 'localhost';
-    private $db_name = 'khombole_membres';
-    private $username = 'root';
-    private $password = '';
+    private $db_name = 'u588247422_userappel';
+    private $username = 'u588247422_bdappel';
+    private $password = 'Khombole2021';
     private $conn;
 
     public function getConnection() {

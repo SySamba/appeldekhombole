@@ -15,7 +15,7 @@ if (!$membre) {
 }
 
 // URL pour le QR code pointant vers le profil du membre sur le site
-$qr_data = "http://localhost/carte-membre/profil_membre.php?id=" . $membre['id'];
+$qr_data = "https://appeldekhombole.com/profil_membre.php?id=" . $membre['id'];
 
 $qr_url = "https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=" . urlencode($qr_data);
 ?>
