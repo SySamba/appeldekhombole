@@ -719,26 +719,16 @@ $stats = $membre_obj->obtenirStatistiques();
     <option value="Trésorier Général Adjoint">Trésorier Général Adjoint</option>
 
     <option value="Commission Finance">Commission Finance</option>
-    <option value="Commission Technique et de Contrôle">
-        Commission Technique et de Contrôle (Chartes & Règlement intérieur)
-    </option>
-    <option value="Commission Orientation et Stratégie">
-        Commission Orientation, Déploiement Stratégique et Politique
-    </option>
-    <option value="Commission Logistique">
-        Commission Logistique (Mobilisation & Organisation)
-    </option>
+    <option value="Commission Technique et de Contrôle (Chartes & Règlement intérieur)">Commission Technique et de Contrôle (Chartes & Règlement intérieur)</option>
+    <option value="Commission Orientation, Déploiement Stratégique et Politique">Commission Orientation, Déploiement Stratégique et Politique</option>
+    <option value="Commission Logistique (Mobilisation & Organisation)">Commission Logistique (Mobilisation & Organisation)</option>
     <option value="Commission Féminine">Commission Féminine</option>
     <option value="Commission Sportive">Commission Sportive</option>
     <option value="Commission Culturelle">Commission Culturelle</option>
     <option value="Commission Entreprenariat">Commission Entreprenariat</option>
-    <option value="Commission Marketing et Communication">
-        Commission Marketing, Communication & Médias Sociaux
-    </option>
+    <option value="Commission Marketing, Communication & Médias Sociaux">Commission Marketing, Communication & Médias Sociaux</option>
     <option value="Commission Citoyenneté">Commission Citoyenneté</option>
-    <option value="Commission Formation et Insertion">
-        Commission Formation & Insertion Professionnelle
-    </option>
+    <option value="Commission Formation & Insertion Professionnelle">Commission Formation & Insertion Professionnelle</option>
     <option value="Commission Élèves">Commission des Élèves</option>
     <option value="Commission Étudiants">Commission des Étudiants</option>
     <option value="Commission Relations Extérieures">Commission Relations Extérieures</option>
@@ -843,26 +833,16 @@ $stats = $membre_obj->obtenirStatistiques();
     <option value="Trésorier Général Adjoint">Trésorier Général Adjoint</option>
 
     <option value="Commission Finance">Commission Finance</option>
-    <option value="Commission Technique et de Contrôle">
-        Commission Technique et de Contrôle (Chartes & Règlement intérieur)
-    </option>
-    <option value="Commission Orientation et Stratégie">
-        Commission Orientation, Déploiement Stratégique et Politique
-    </option>
-    <option value="Commission Logistique">
-        Commission Logistique (Mobilisation & Organisation)
-    </option>
+    <option value="Commission Technique et de Contrôle (Chartes & Règlement intérieur)">Commission Technique et de Contrôle (Chartes & Règlement intérieur)</option>
+    <option value="Commission Orientation, Déploiement Stratégique et Politique">Commission Orientation, Déploiement Stratégique et Politique</option>
+    <option value="Commission Logistique (Mobilisation & Organisation)">Commission Logistique (Mobilisation & Organisation)</option>
     <option value="Commission Féminine">Commission Féminine</option>
     <option value="Commission Sportive">Commission Sportive</option>
     <option value="Commission Culturelle">Commission Culturelle</option>
     <option value="Commission Entreprenariat">Commission Entreprenariat</option>
-    <option value="Commission Marketing et Communication">
-        Commission Marketing, Communication & Médias Sociaux
-    </option>
+    <option value="Commission Marketing, Communication & Médias Sociaux">Commission Marketing, Communication & Médias Sociaux</option>
     <option value="Commission Citoyenneté">Commission Citoyenneté</option>
-    <option value="Commission Formation et Insertion">
-        Commission Formation & Insertion Professionnelle
-    </option>
+    <option value="Commission Formation & Insertion Professionnelle">Commission Formation & Insertion Professionnelle</option>
     <option value="Commission Élèves">Commission des Élèves</option>
     <option value="Commission Étudiants">Commission des Étudiants</option>
     <option value="Commission Relations Extérieures">Commission Relations Extérieures</option>
