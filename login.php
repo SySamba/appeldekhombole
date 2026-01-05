@@ -2,7 +2,7 @@
 session_start();
 
 // Identifiants de connexion
-define('ADMIN_EMAIL', 'jeunesalappel@gmail.com');
+define('ADMIN_EMAIL', 'appeldekhombole@gmail.com');
 define('ADMIN_PASSWORD', 'Khombole2025@#');
 
 $error = '';
@@ -595,7 +595,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <a href="https://www.facebook.com/profile.php?id=61585996523452" target="_blank" class="social-link social-facebook" title="Facebook">
                     <i class="fab fa-facebook-f"></i>
                 </a>
-                <a href="mailto:jeunesalappel@gmail.com" class="social-link social-email" title="Email">
+                <a href="mailto:appeldekhombole@gmail.com" class="social-link social-email" title="Email">
                     <i class="fas fa-envelope"></i>
                 </a>
                 <a href="tel:+221772862728" class="social-link social-phone" title="Téléphone">

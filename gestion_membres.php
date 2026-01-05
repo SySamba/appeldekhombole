@@ -609,8 +609,8 @@ $stats = $membre_obj->obtenirStatistiques();
                     <div class="col-md-4 text-center mb-3">
                         <h6><i class="fas fa-envelope me-2"></i>Contact</h6>
                         <small>
-                            <a href="mailto:jeunesalappel@gmail.com" class="text-white text-decoration-none d-block">
-                                jeunesalappel@gmail.com
+                            <a href="mailto:appeldekhombole@gmail.com" class="text-white text-decoration-none d-block">
+                                appeldekhombole@gmail.com
                             </a>
                             <a href="tel:+221772862728" class="text-white text-decoration-none d-block">
                                 +221 77 286 27 28
@@ -626,7 +626,7 @@ $stats = $membre_obj->obtenirStatistiques();
                             <a href="https://www.facebook.com/profile.php?id=61585996523452" target="_blank" class="social-link social-facebook" title="Facebook">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
-                            <a href="mailto:jeunesalappel@gmail.com" class="social-link social-email" title="Email">
+                            <a href="mailto:appeldekhombole@gmail.com" class="social-link social-email" title="Email">
                                 <i class="fas fa-envelope"></i>
                             </a>
                             <a href="tel:+221772862728" class="social-link social-phone" title="Téléphone">

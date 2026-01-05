@@ -481,7 +481,7 @@ if (!$membre) {
                     <a href="https://www.facebook.com/profile.php?id=61585996523452" target="_blank" class="social-link social-facebook" title="Facebook">
                         <i class="fab fa-facebook-f"></i>
                     </a>
-                    <a href="mailto:jeunesalappel@gmail.com" class="social-link social-email" title="Email">
+                    <a href="mailto:appeldekhombole@gmail.com" class="social-link social-email" title="Email">
                         <i class="fas fa-envelope"></i>
                     </a>
                     <a href="tel:+221772862728" class="social-link social-phone" title="Téléphone">
@@ -489,7 +489,7 @@ if (!$membre) {
                     </a>
                 </div>
                 <p class="mt-2 mb-0 text-muted small">
-                    <a href="mailto:jeunesalappel@gmail.com" class="text-muted text-decoration-none">jeunesalappel@gmail.com</a> | 
+                    <a href="mailto:appeldekhombole@gmail.com" class="text-muted text-decoration-none">appeldekhombole@gmail.com</a> | 
                     <a href="tel:+221772862728" class="text-muted text-decoration-none">+221 77 286 27 28</a>
                 </p>
             </div>
