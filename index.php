@@ -222,6 +222,174 @@ $stats = $membre_obj->obtenirStatistiques();
         .social-phone {
             background: #25d366;
         }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero-header {
+                padding: 40px 20px;
+            }
+
+            .logo-hero {
+                width: 80px;
+                height: 80px;
+            }
+
+            .association-name {
+                font-size: 1.8rem;
+            }
+
+            .hero-header h2 {
+                font-size: 1.5rem;
+            }
+
+            .stats-section {
+                padding: 30px 20px;
+            }
+
+            .stat-number {
+                font-size: 36px;
+            }
+
+            .stat-label {
+                font-size: 12px;
+            }
+
+            .feature-card {
+                padding: 25px;
+                margin-bottom: 20px;
+            }
+
+            .feature-icon {
+                width: 60px;
+                height: 60px;
+                font-size: 24px;
+            }
+
+            .btn-khombole,
+            .btn-secondary-khombole {
+                padding: 12px 24px;
+                font-size: 14px;
+            }
+
+            .footer-section {
+                padding: 30px 20px;
+            }
+
+            .footer-section .row > div {
+                margin-bottom: 20px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            body {
+                padding: 0;
+            }
+
+            .container {
+                padding: 0;
+            }
+
+            .hero-section {
+                margin: 10px;
+                border-radius: 15px;
+            }
+
+            .hero-header {
+                padding: 30px 15px;
+            }
+
+            .logo-hero {
+                width: 70px;
+                height: 70px;
+            }
+
+            .association-name {
+                font-size: 1.5rem;
+            }
+
+            .hero-header h2 {
+                font-size: 1.2rem;
+            }
+
+            .association-subtitle {
+                font-size: 0.9rem;
+            }
+
+            .stats-section {
+                padding: 20px 10px;
+            }
+
+            .stat-item {
+                padding: 15px 10px;
+            }
+
+            .stat-number {
+                font-size: 28px;
+            }
+
+            .stat-label {
+                font-size: 11px;
+            }
+
+            .container.py-5 {
+                padding-top: 2rem !important;
+                padding-bottom: 2rem !important;
+            }
+
+            .feature-card {
+                padding: 20px;
+            }
+
+            .feature-icon {
+                width: 50px;
+                height: 50px;
+                font-size: 20px;
+            }
+
+            .feature-card h4 {
+                font-size: 1.1rem;
+            }
+
+            .feature-card p {
+                font-size: 0.9rem;
+            }
+
+            .btn-khombole,
+            .btn-secondary-khombole {
+                padding: 10px 20px;
+                font-size: 13px;
+            }
+
+            .footer-section {
+                padding: 25px 15px;
+            }
+
+            .footer-section h5,
+            .footer-section h6 {
+                font-size: 1rem;
+            }
+
+            .footer-section p,
+            .footer-section small {
+                font-size: 0.85rem;
+            }
+
+            .social-link {
+                width: 35px;
+                height: 35px;
+                font-size: 16px;
+            }
+        }
+
+        @media (min-width: 769px) and (max-width: 1024px) {
+            .hero-header {
+                padding: 50px 30px;
+            }
+
+            .feature-card {
+                padding: 28px;
+            }
+        }
     </style>
 </head>
 <body>

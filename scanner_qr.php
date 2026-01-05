@@ -240,6 +240,196 @@ if (isset($_GET['qr']) && !empty($_GET['qr'])) {
             max-width: 400px;
             margin: 0 auto;
         }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .scanner-container {
+                margin: 15px;
+            }
+
+            .scanner-header {
+                padding: 25px 20px;
+            }
+
+            .scanner-header h1 {
+                font-size: 1.5rem;
+            }
+
+            .scanner-header p {
+                font-size: 0.9rem;
+            }
+
+            .membre-card {
+                padding: 25px 15px;
+                margin: 15px;
+            }
+
+            .photo-membre,
+            .photo-placeholder {
+                width: 100px;
+                height: 100px;
+                font-size: 40px;
+            }
+
+            .membre-nom {
+                font-size: 24px;
+            }
+
+            .membre-role {
+                padding: 6px 16px;
+                font-size: 14px;
+            }
+
+            .info-grid {
+                grid-template-columns: 1fr;
+                gap: 12px;
+            }
+
+            .info-item {
+                padding: 12px;
+            }
+
+            .info-label {
+                font-size: 11px;
+            }
+
+            .info-value {
+                font-size: 14px;
+            }
+
+            .qr-input-section {
+                padding: 25px 15px;
+                margin: 15px;
+            }
+
+            .qr-input {
+                padding: 12px;
+                font-size: 14px;
+            }
+
+            .scan-btn {
+                padding: 12px 25px;
+                font-size: 14px;
+            }
+
+            .camera-section {
+                padding: 15px;
+            }
+
+            .camera-section h5 {
+                font-size: 1.1rem;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .scanner-container {
+                margin: 10px;
+                border-radius: 15px;
+            }
+
+            .scanner-header {
+                padding: 20px 15px;
+            }
+
+            .scanner-header h1 {
+                font-size: 1.3rem;
+            }
+
+            .scanner-header p {
+                font-size: 0.85rem;
+            }
+
+            .membre-card {
+                padding: 20px 12px;
+                margin: 10px;
+                border-radius: 12px;
+            }
+
+            .photo-membre,
+            .photo-placeholder {
+                width: 80px;
+                height: 80px;
+                font-size: 32px;
+            }
+
+            .membre-nom {
+                font-size: 20px;
+            }
+
+            .membre-role {
+                padding: 5px 12px;
+                font-size: 13px;
+            }
+
+            .info-grid {
+                gap: 10px;
+            }
+
+            .info-item {
+                padding: 10px;
+            }
+
+            .info-label {
+                font-size: 10px;
+            }
+
+            .info-value {
+                font-size: 13px;
+            }
+
+            .statut-badge {
+                padding: 4px 12px;
+                font-size: 11px;
+            }
+
+            .qr-input-section {
+                padding: 20px 12px;
+                margin: 10px;
+            }
+
+            .qr-input {
+                padding: 10px;
+                font-size: 13px;
+            }
+
+            .scan-btn {
+                padding: 10px 20px;
+                font-size: 13px;
+            }
+
+            .camera-section {
+                padding: 12px;
+            }
+
+            .camera-section h5 {
+                font-size: 1rem;
+            }
+
+            .camera-section p {
+                font-size: 0.85rem;
+            }
+
+            .btn {
+                padding: 8px 16px;
+                font-size: 13px;
+            }
+
+            .error-message {
+                padding: 12px;
+                margin: 10px;
+                font-size: 0.9rem;
+            }
+
+            #qr-reader {
+                max-width: 100%;
+            }
+        }
+
+        @media (min-width: 769px) and (max-width: 1024px) {
+            .scanner-container {
+                max-width: 700px;
+            }
+        }
     </style>
 </head>
 <body>

@@ -209,6 +209,133 @@ $qr_url = "https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=" . url
             color: white;
         }
 
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            .carte-membre {
+                width: 100%;
+                max-width: 650px;
+                height: auto;
+                min-height: 420px;
+            }
+
+            .logo-carte {
+                width: 120px;
+            }
+
+            .carte-title {
+                font-size: 28px;
+                letter-spacing: 2px;
+            }
+
+            .carte-subtitle {
+                font-size: 14px;
+            }
+
+            .carte-body {
+                gap: 20px;
+            }
+
+            .photo-membre,
+            .photo-placeholder {
+                width: 140px;
+                height: 160px;
+            }
+
+            .info-item {
+                font-size: 16px;
+                margin-bottom: 15px;
+            }
+
+            .qr-code {
+                width: 90px;
+                height: 90px;
+            }
+
+            .print-btn {
+                padding: 10px 25px;
+                font-size: 14px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            body {
+                padding: 5px;
+            }
+
+            .carte-membre {
+                width: 100%;
+                height: auto;
+                min-height: 380px;
+                margin: 0 auto 20px;
+            }
+
+            .logo-carte {
+                width: 100px;
+                top: 15px;
+                left: 15px;
+            }
+
+            .carte-header {
+                top: 25px;
+                left: 120px;
+                right: 15px;
+            }
+
+            .carte-title {
+                font-size: 22px;
+                letter-spacing: 1px;
+            }
+
+            .carte-subtitle {
+                font-size: 12px;
+            }
+
+            .carte-body {
+                top: 180px;
+                left: 15px;
+                right: 100px;
+                gap: 15px;
+            }
+
+            .photo-membre,
+            .photo-placeholder {
+                width: 120px;
+                height: 140px;
+            }
+
+            .info-section {
+                padding: 10px;
+            }
+
+            .info-item {
+                font-size: 14px;
+                margin-bottom: 12px;
+            }
+
+            .qr-section {
+                bottom: 20px;
+                right: 20px;
+            }
+
+            .qr-code {
+                width: 80px;
+                height: 80px;
+            }
+
+            .print-btn {
+                padding: 8px 20px;
+                font-size: 13px;
+            }
+
+            h1 {
+                font-size: 1.5rem;
+            }
+        }
+
         @media print {
             body {
                 background: white !important;

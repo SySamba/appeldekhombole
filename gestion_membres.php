@@ -265,6 +265,199 @@ $stats = $membre_obj->obtenirStatistiques();
         .social-phone {
             background: #25d366;
         }
+
+        /* Responsive Design */
+        @media (max-width: 992px) {
+            .header-section .row {
+                flex-direction: column;
+            }
+
+            .header-section .col-md-6 {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+            .stats-card {
+                margin-bottom: 10px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .main-container {
+                margin: 10px;
+                border-radius: 15px;
+            }
+
+            .header-section {
+                padding: 25px 20px;
+            }
+
+            .header-section h1 {
+                font-size: 1.5rem;
+            }
+
+            .stats-card {
+                padding: 15px;
+            }
+
+            .stats-card h3 {
+                font-size: 1.5rem;
+            }
+
+            .search-section {
+                padding: 15px;
+            }
+
+            .search-section .row {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .search-section .col-md-6 {
+                width: 100%;
+            }
+
+            .search-section .text-end {
+                text-align: center !important;
+            }
+
+            .btn-khombole,
+            .btn-outline-success,
+            .btn-outline-dark {
+                margin-bottom: 10px;
+                width: 100%;
+            }
+
+            .membre-card {
+                padding: 15px;
+            }
+
+            .photo-membre-small {
+                width: 45px;
+                height: 45px;
+            }
+
+            .footer-section {
+                padding: 25px 15px;
+            }
+
+            .modal-body {
+                padding: 20px 15px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .main-container {
+                margin: 5px;
+                border-radius: 12px;
+            }
+
+            .header-section {
+                padding: 20px 15px;
+            }
+
+            .header-section h1 {
+                font-size: 1.3rem;
+            }
+
+            .header-section p {
+                font-size: 0.85rem;
+            }
+
+            .stats-card {
+                padding: 12px;
+            }
+
+            .stats-card h3 {
+                font-size: 1.3rem;
+            }
+
+            .stats-card small {
+                font-size: 0.75rem;
+            }
+
+            .search-section {
+                padding: 12px;
+            }
+
+            #searchInput {
+                font-size: 14px;
+            }
+
+            .btn-khombole,
+            .btn-outline-success,
+            .btn-outline-dark {
+                padding: 8px 16px;
+                font-size: 13px;
+            }
+
+            .membre-card {
+                padding: 12px;
+                margin-bottom: 15px;
+            }
+
+            .membre-card h6 {
+                font-size: 0.95rem;
+            }
+
+            .membre-card small {
+                font-size: 0.75rem;
+            }
+
+            .photo-membre-small {
+                width: 40px;
+                height: 40px;
+            }
+
+            .btn-group {
+                flex-direction: column;
+            }
+
+            .btn-group .btn {
+                border-radius: 5px !important;
+                margin-bottom: 5px;
+            }
+
+            .footer-section {
+                padding: 20px 12px;
+            }
+
+            .footer-section h6 {
+                font-size: 0.9rem;
+            }
+
+            .footer-section small {
+                font-size: 0.75rem;
+            }
+
+            .social-link {
+                width: 35px;
+                height: 35px;
+                font-size: 16px;
+            }
+
+            .modal-dialog {
+                margin: 10px;
+            }
+
+            .modal-body {
+                padding: 15px;
+            }
+
+            .modal-header h5 {
+                font-size: 1.1rem;
+            }
+        }
+
+        @media (min-width: 769px) and (max-width: 1024px) {
+            .header-section {
+                padding: 28px;
+            }
+
+            .membre-card {
+                padding: 18px;
+            }
+        }
     </style>
 </head>
 <body>

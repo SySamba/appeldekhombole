@@ -207,6 +207,161 @@ if (!$membre) {
         .social-phone {
             background: #25d366;
         }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .profile-card {
+                margin: 30px 15px;
+            }
+
+            .profile-header {
+                padding: 25px 20px;
+            }
+
+            .profile-photo,
+            .profile-photo-placeholder {
+                width: 100px;
+                height: 100px;
+            }
+
+            .profile-photo-placeholder {
+                font-size: 35px;
+            }
+
+            .profile-header h2 {
+                font-size: 1.5rem;
+            }
+
+            .profile-header p {
+                font-size: 0.9rem;
+            }
+
+            .profile-body {
+                padding: 25px 20px;
+            }
+
+            .info-row {
+                padding: 12px;
+                margin-bottom: 15px;
+            }
+
+            .info-icon {
+                width: 35px;
+                height: 35px;
+                font-size: 14px;
+            }
+
+            .info-label {
+                font-size: 12px;
+            }
+
+            .info-value {
+                font-size: 14px;
+            }
+
+            .logo-footer {
+                padding: 15px;
+            }
+
+            .logo-footer img {
+                max-height: 60px !important;
+            }
+
+            .social-link {
+                width: 35px;
+                height: 35px;
+                font-size: 16px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .profile-card {
+                margin: 20px 10px;
+                border-radius: 12px;
+            }
+
+            .profile-header {
+                padding: 20px 15px;
+            }
+
+            .profile-photo,
+            .profile-photo-placeholder {
+                width: 80px;
+                height: 80px;
+            }
+
+            .profile-photo-placeholder {
+                font-size: 30px;
+            }
+
+            .profile-header h2 {
+                font-size: 1.3rem;
+            }
+
+            .profile-header p {
+                font-size: 0.85rem;
+            }
+
+            .profile-body {
+                padding: 20px 15px;
+            }
+
+            .info-row {
+                padding: 10px;
+                margin-bottom: 12px;
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .info-icon {
+                width: 30px;
+                height: 30px;
+                font-size: 12px;
+                margin: 0 auto 10px;
+            }
+
+            .info-label {
+                font-size: 11px;
+            }
+
+            .info-value {
+                font-size: 13px;
+            }
+
+            .status-badge {
+                padding: 6px 12px;
+                font-size: 12px;
+            }
+
+            .logo-footer {
+                padding: 12px;
+            }
+
+            .logo-footer img {
+                max-height: 50px !important;
+            }
+
+            .logo-footer p {
+                font-size: 0.8rem;
+            }
+
+            .social-link {
+                width: 32px;
+                height: 32px;
+                font-size: 14px;
+            }
+
+            .btn-lg {
+                padding: 10px 20px;
+                font-size: 14px;
+            }
+        }
+
+        @media (min-width: 769px) and (max-width: 1024px) {
+            .profile-card {
+                max-width: 700px;
+            }
+        }
     </style>
 </head>
 <body>
