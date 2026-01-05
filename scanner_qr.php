@@ -465,7 +465,7 @@ if (isset($_GET['qr']) && !empty($_GET['qr'])) {
                     <div class="text-center">
                         <div class="membre-role">
                             <i class="fas fa-user-tag me-2"></i>
-                            <?php echo htmlspecialchars($membre['role']); ?>
+                            <?php echo htmlspecialchars($membre['role'] ?: 'Membre'); ?>
                         </div>
                     </div>
 
